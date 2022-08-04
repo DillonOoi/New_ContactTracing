@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatisticsFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <!-- Top NavBar-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/logo"-->
+<!--                android:layout_width="48dp"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:layout_marginStart="@dimen/five"-->
+<!--                android:layout_marginTop="@dimen/five"-->
+<!--                android:layout_marginBottom="@dimen/five"-->
+<!--                app:srcCompat="@drawable/app_logo" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/AppName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_weight="1"-->
+<!--                android:fontFamily="@font/ubuntu"-->
+<!--                android:text="App Name"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="@dimen/twenty"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/Setting"-->
+<!--                android:layout_width="25dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:gravity="end"-->
+<!--                app:srcCompat="@drawable/settings"-->
+<!--                android:layout_marginEnd="@dimen/five"-->
+<!--                android:layout_marginTop="@dimen/five"-->
+<!--                android:layout_marginBottom="@dimen/five"/>-->
+<!--        </LinearLayout>-->
+        <!-- End of Top Nav Bar-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_white_75"
+            android:orientation="vertical"
+            android:paddingVertical="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Malaysia"
+                    android:textSize="25dp"
+                    android:textColor="@color/gray"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/malaysia"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/malaysia_data"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
